@@ -1,0 +1,31 @@
+{
+  "name": "deenadhayalan",
+  "version": "1.0.0",
+  "private": true,
+  "description": "deenadhayalan",
+  "author": "shyam",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b gh-pages",
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "gatsby": "^5.14.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "gh-pages": "^6.3.0",
+    "typescript": "^5.3.3"
+  }
+}
